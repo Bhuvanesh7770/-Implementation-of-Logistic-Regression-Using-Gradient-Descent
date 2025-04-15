@@ -9,12 +9,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Algorithm
 ```
-1.Import Necessary Libraries: Import NumPy, pandas, and StandardScaler for numerical operations, data handling, and feature scaling, respectively. 
-2.Define the Linear Regression Function: Create a linear regression function using gradient descent to iteratively update parameters, minimizing the difference between predicted and actual values. 
-3.Load and Preprocess the Data: Load the dataset, extract features and target variable, and standardize both using StandardScaler for consistent model training. 
-4.Perform Linear Regression: Apply the defined linear regression function to the scaled features and target variable, obtaining optimal parameters for the model. 
-5.Make Predictions on New Data: Prepare new data, scale it, and use the trained model to predict the target variable, transforming predictions back to the original scale. 
-6.Print the Predicted Value.
+1. Import the necessary python packages
+2. Read the dataset.
+3. Define X and Y array.
+4. Define a function for costFunction,cost and gradient.
+5. Define a function to plot the decision boundary and predict the Regression value
 ```
 ## Program:
 ```
